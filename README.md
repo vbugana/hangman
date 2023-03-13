@@ -1,6 +1,6 @@
 # Hangman
 
-Select a letter to figure out a hidden word in a set amount of chances
+Select a letter to figure out a hidden word in a set amount of chances build-in SVG image.
 
 ## Description
 
