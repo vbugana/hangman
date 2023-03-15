@@ -4,17 +4,15 @@ Select a letter to figure out a hidden word in a set amount of chances build-in 
 
 ## Description
 
-A word game where the goal is simply to find the missing word or words.
+This is a JavaScript code that implements a simple hangman game. 
 
-You will be presented with a number of blank spaces representing the missing letters you need to find.
+The game randomly selects a word from an array of words, and the player must guess the word by typing letters on the keyboard.
 
-Use the keyboard to guess a letter (hint: start with vowels).
+If the player types a correct letter, it is added to the word display, and if the player types a wrong letter, it is added to the list of wrong letters and a part of the hangman is drawn.
 
-If your chosen letter exists in the answer, then all places in the answer where that letter appear will be revealed.
+If the player guesses the word, a message is displayed congratulating the player, and if the player makes too many wrong guesses, a message is displayed telling the player they lost. 
 
-After you've revealed several letters, you may be able to guess what the answer is and fill in the remaining letters.
-
-Be warned, every time you guess a letter wrong you loose a life and the hangman begins to appear, piece by piece.
+The code also includes a function to restart the game.
 
 Solve the puzzle before the hangman dies.
 
